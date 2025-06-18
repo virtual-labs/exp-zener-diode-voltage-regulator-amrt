@@ -13,7 +13,7 @@ The Zener diode is like a general-purpose signal diode. When biased in the forwa
 
 
 
-The Zener diode is used in its **reverse bias**. From the I-V characteristics curve, we can observe that the Zener diode has a region in its reverse bias characteristics where the voltage remains almost constant — regardless of the value of the current flowing through the diode — and remains nearly constant even with large changes in current, as long as the Zener diode's current remains between the breakdown current **IZ(min)** and the maximum current rating **IZ(max)**.
+The Zener diode is used in its **reverse bias**. From the I-V characteristics curve, we can observe that the Zener diode has a region in its reverse bias characteristics where the voltage remains almost constant — regardless of the value of the current flowing through the diode — and remains nearly constant even with large changes in current, as long as the Zener diode's current remains between the breakdown current $I_{Z(min)}$ and the maximum current rating $I_{Z(max)}$.
 
 
 
