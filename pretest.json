@@ -1,0 +1,34 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "10 volt source is connected in series with resistor 20 ohm and 30 ohm. What will be the voltage across the resistor 30 ohm?",
+      "answers": {
+        "a": "10V",
+        "b": "8V",
+        "c": "6V",
+        "d": "4V"
+      },
+      "explanations": {
+        "a": "Incorrect. 10V is the total source voltage.",
+        "b": "Incorrect. 8V would require different resistor values.",
+        "c": "Correct. Voltage across 30Ω = (30 / (20 + 30)) * 10V = 6V",
+        "d": "Incorrect. 4V is too low."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6 volt zener diode is connected across the power source of 10 volt with series resistance 1k ohm. What will be the current through the series resistance?",
+      "answers": {
+        "a": "5.6mA",
+        "b": "10mA",
+        "c": "4mA",
+        "d": "3mA"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
