@@ -26,12 +26,7 @@
         "c": "4mA",
         "d": "3mA"
       },
-      "explanations": {
-        "a": "Correct. Current = (10V - 6V) / 1000Ω = 4V / 1000Ω = 4mA",
-        "b": "Incorrect. 10mA would require a lower resistance.",
-        "c": "Incorrect. This is the correct calculation, but labeled as wrong here to match the earlier explanation.",
-        "d": "Incorrect. 3mA is too low."
-      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
