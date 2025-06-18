@@ -38,17 +38,12 @@
     {
       "question": "What one is not required for zener voltage regulator?",
       "answers": {
-        "a": "Series resistance must be maximum to protect the zener diode",
-        "b": "Load resistance is greater than series resistance",
-        "c": "Supply voltage must not less than zener voltage",
-        "d": "Series resistance has minimum value to feed maximum current"
+        "a": "Supply voltage must be higher than Zener voltage",
+        "b": "A load resistance connected in parallel with the Zener diode",
+        "c": "A properly chosen series resistor to limit current",
+        "d": "A very high series resistance to completely block current"
       },
-      "explanations": {
-        "a": "Incorrect. Series resistance must be appropriately chosen, not maximum.",
-        "b": "Incorrect. Load resistance is typically greater.",
-        "c": "Incorrect. Supply must exceed zener voltage.",
-        "d": "Correct. Series resistance should not be too low or it will damage the zener."
-      },
+      
       "correctAnswer": "d",
       "difficulty": "beginner"
     }
