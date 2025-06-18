@@ -1,38 +1,50 @@
 {
   "version": 2.0,
   "questions": [
-    {
-      "question": "This is a Sample Question 1?",
+     {
+      "question": "If 6 volt zener diode is connected across 10 volt battery, what will be the voltage across zener diode?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "4V",
+        "b": "6V",
+        "c": "8V",
+        "d": "10V"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. 4V is below breakdown voltage.",
+        "b": "Correct. Zener maintains its breakdown voltage, which is 6V.",
+        "c": "Incorrect. 8V is above zener voltage.",
+        "d": "Incorrect. 10V would damage the diode."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following statement is true?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Zener diode is similar with ordinary diode",
+        "b": "Zener diode is commonly used under reverse biasing condition",
+        "c": "Zener diode can operate at any range of current",
+        "d": "Zener diode is used to rectify the signals"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. It differs in reverse breakdown operation.",
+        "b": "Correct. Zener diodes are designed to operate in reverse bias.",
+        "c": "Incorrect. Zener has a limited current range.",
+        "d": "Incorrect. Rectification is done using ordinary diodes."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What one is not required for zener voltage regulator?",
+      "answers": {
+        "a": "Supply voltage must be higher than Zener voltage",
+        "b": "A load resistance connected in parallel with the Zener diode",
+        "c": "A properly chosen series resistor to limit current",
+        "d": "A very high series resistance to completely block current"
+      },
+      
+      "correctAnswer": "d",
       "difficulty": "beginner"
     }
   ]

@@ -1,1 +1,1 @@
-## Experiment name
+## 	Zener Diode as Voltage Regulator
