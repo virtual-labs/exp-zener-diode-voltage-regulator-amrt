@@ -1,0 +1,80 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "10 volt source is connected in series with resistor 20 ohm and 30 ohm. What will be the voltage across the resistor 30 ohm?",
+      "answers": {
+        "a": "10V",
+        "b": "8V",
+        "c": "6V",
+        "d": "4V"
+      },
+      "explanations": {
+        "a": "Incorrect. 10V is the total source voltage.",
+        "b": "Incorrect. 8V would require different resistor values.",
+        "c": "Correct. Voltage across 30Ω = (30 / (20 + 30)) * 10V = 6V",
+        "d": "Incorrect. 4V is too low."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "6 volt zener diode is connected across the power source of 10 volt with series resistance 1k ohm. What will be the current through the series resistance?",
+      "answers": {
+        "a": "5.6mA",
+        "b": "10mA",
+        "c": "4mA",
+        "d": "3mA"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If 6 volt zener diode is connected across 10 volt battery, what will be the voltage across zener diode?",
+      "answers": {
+        "a": "4V",
+        "b": "6V",
+        "c": "8V",
+        "d": "10V"
+      },
+      "explanations": {
+        "a": "Incorrect. 4V is below breakdown voltage.",
+        "b": "Correct. Zener maintains its breakdown voltage, which is 6V.",
+        "c": "Incorrect. 8V is above zener voltage.",
+        "d": "Incorrect. 10V would damage the diode."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following statement is true?",
+      "answers": {
+        "a": "Zener diode is similar with ordinary diode",
+        "b": "Zener diode is commonly used under reverse biasing condition",
+        "c": "Zener diode can operate at any range of current",
+        "d": "Zener diode is used to rectify the signals"
+      },
+      "explanations": {
+        "a": "Incorrect. It differs in reverse breakdown operation.",
+        "b": "Correct. Zener diodes are designed to operate in reverse bias.",
+        "c": "Incorrect. Zener has a limited current range.",
+        "d": "Incorrect. Rectification is done using ordinary diodes."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What one is not required for zener voltage regulator?",
+      "answers": {
+        "a": "Supply voltage must be higher than Zener voltage",
+        "b": "A load resistance connected in parallel with the Zener diode",
+        "c": "A properly chosen series resistor to limit current",
+        "d": "A very high series resistance to completely block current"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
